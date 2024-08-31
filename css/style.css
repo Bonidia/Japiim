@@ -432,3 +432,18 @@
     padding-right: 0;
     border-right: none;
 }
+
+.service-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-item .p-4 {
+    flex-grow: 1;
+}
+
+h5.mb3 {
+    margin-bottom: 1rem; /* Ajuste para adicionar o espaço em baixo */
+}
