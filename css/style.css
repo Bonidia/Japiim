@@ -21,6 +21,19 @@
     z-index: 99;
 }
 
+/* Deixar as fotos da equipe com tamanho uniforme no carrossel */
+.team-item img {
+    width: 100%;
+    height: 280px;      /* ajusta se quiser maior/menor */
+    object-fit: cover;
+}
+
+.partners-carousel img {
+    width: 100%;
+    height: 100px; /* ajuste conforme seu gosto */
+    object-fit: contain; /* mantém proporção sem cortar */
+    object-position: center;
+}
 
 /*** Spinner ***/
 #spinner {

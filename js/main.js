@@ -82,6 +82,20 @@
         ]
     });
 
+    $(".team-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 800,
+        loop: true,
+        margin: 24,
+        dots: true,
+        nav: false,
+        responsive: {
+            0:   { items: 1 },
+            576: { items: 2 },
+            768: { items: 3 },
+            992: { items: 4 }
+        }
+    });
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
